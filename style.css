@@ -1,4 +1,40 @@
 body {
-    background-color: rgb(214, 181, 181);
+    background-color: rgb(141, 117, 117);
     color: rgb(0, 0, 0);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: grid;
+}
+
+
+#bombillo {
+    width: 50x;
+    height: 500px;
+    padding: 50px;
+    border-radius: 100px;
+}
+
+button {
+    color: white;
+    background: black;
+    margin: auto;
+    width: 150px;
+    height: 70px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    font-size: 25px
+}
+
+button:hover {
+    color: black;
+    background: white;
+    box-shadow: 5px 5px 20px 2px black;
+    font-size: 30px;
+    width: 160px;
+    height: 75px
 }
