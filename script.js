@@ -1,12 +1,12 @@
-function bombillo_estado(){
+function vela_estado(){
     interruptor = document.getElementById('interruptor');
-    bombillo = document.getElementById('bombillo');
-    console.log(bombillo);
+    vela = document.getElementById('vela');
+    console.log(vela);
     if (interruptor.innerText == 'Apagar'){
-        bombillo.src = 'images/apagado.jpg'
+        vela.src = 'images/apagado.jpg'
         interruptor.innerText = 'Encender'
     } else {
-        bombillo.src = 'images/encendido.jpg'
+        vela.src = 'images/encendido.jpg'
         interruptor.innerText = 'Apagar'
     }
 }
